@@ -18,6 +18,6 @@ while( chute != numeroSecreto){
         tentativas++;
     }
 }
-
+//utilizando operador ternario na condição para que seja possivel exibir a palavra no plural ou singular
 let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa'
 alert(`acertou o numero ${numeroSecreto} com ${tentativas} ${palavraTentativa}`);
